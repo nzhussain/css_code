@@ -1,0 +1,13 @@
+.max-h{
+    max-height: 150px;
+    border: 1px solid rgb(231, 18, 18);
+    box-shadow: 0 0 0 3px ;
+    overflow: scroll;
+    
+} 
+ #min-h{
+    min-height: 80px;
+    box-shadow: 0 0 0 5px orange;
+    margin: 30px;
+    overflow: auto;
+}
