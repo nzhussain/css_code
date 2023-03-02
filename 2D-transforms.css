@@ -1,0 +1,38 @@
+.translate{
+     background-color: blue;
+     max-width:100px ;
+     margin: 20px;
+     /* transform: translate(50px,200px); */
+     /* transform:translateX(200px); */
+     transform: translateY(150px);
+}
+.rotate{
+    background: yellowgreen;
+    width: 200px;
+    /* transform:rotateX(60deg); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(-45deg); */
+    /* transform: rotateY(45deg); */
+    transform: rotate(45deg);
+}
+#scale{
+    background-color: pink;
+    width: 200px;
+    /* transform: scale(1,4); */
+    /* transform: scaleX(2); */
+    transform: scaleY(2);
+}
+#skew{
+    background-color: red;
+    width: 150px;
+    /* transform: skew(45deg); */
+    /* transform: skew(-65deg); */
+    /* transform: skewX(180deg); anti-clockwise*/
+    /* transform: skewY(-120deg); clock wise */
+   
+}
+.matrix{
+    background-color: brown;
+    width: 200px;
+    transform: matrix(5, 0, 5, 9, 7,89 );
+}
