@@ -1,0 +1,32 @@
+.box{
+    width: 80vw;
+    height: 80vh;
+    background-color: brown;
+    box-shadow: 0 0 2px 4px white,0 0 1px 5px black;
+}
+.text1{
+    text-align:left;
+}
+.text2{
+    text-align: right;
+    /* transform: translateY(-20px); */
+    position: relative;
+    bottom:20px ;
+}
+.text3{
+    text-align: center;
+    /* transform:translateY(200px) ; */
+    position: sticky;
+    top: 230px;
+}
+.text4{
+     /* transform: translateY(460px); */
+     position: relative;
+     top:460px;
+}
+.text5{
+    text-align: right;
+    /* transform: translateY(440px); */
+    position: sticky;
+    top: 530px;
+}
