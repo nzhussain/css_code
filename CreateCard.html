@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-Card</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="">
+    <style>
+        #div{
+            font-family: 'Rubik', sans-serif;
+            width: 400px;
+            height: 400px;
+            box-shadow:0 0 1px 2px white, 0 0 3px 3px black ;
+            border-radius:9px;
+        }
+        .div1{
+            width: 420px;
+            height: 390px;
+            border-radius:45%;
+            transform: translate(-1.5em,1em);
+            
+        }
+        h2{
+            font-family: 'Rubik', sans-serif;
+            font-weight:600 ;
+        }
+        .Rscolor{
+            color: rgb(61, 17, 165);
+        }
+        .gap{
+            position: relative;
+            left:20px;
+            color: rgb(108, 110, 112);
+            text-decoration: 2px line-through gray;
+        }
+        .gap2{
+            position: relative;
+            left: 4em;
+            color: white;
+            background-color: #08ca90;
+            font-size: 11px;
+            width: 5.5em;
+            height: 3em;
+            background-color:rgb(21, 206, 141);   
+            border: none; 
+            border-radius: 9px;
+            font-weight: 900;
+        }
+        #div2{
+            width: 290px;
+            height: 3em;
+            transform: translateX(2.8em);
+        }
+        hr{
+            transform:translateX(40px);
+            margin-right: 8em;
+            border-width: 2px;
+            border-style:3px outset gray;
+        }
+        img{
+            border-radius:9px;
+        }
+        #div:active{
+            box-shadow:0 0 0 2px rgb(72, 32, 218);
+        }
+        a:hover{
+            color: red;
+        }
+        .div1:hover{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+      <div id="div">
+        
+          <div class="div1"><figure>
+              <a href="https://learn.thecodehelp.in/t/u/activeCourses" target="_blank"><img src="./dot-betch.jpg" width="370px" height="220px" alt="this is live course"/>
+                </a>
+                 <figcaption><h2>Web Development Master <br>Course @dot Batch</h2></figcaption>
+              </figure>
+             <hr>
+             <div id="div2"><span  class="Rscolor">&#8377;4500</span><span class="gap">&#8377;6999</span> <button class="gap2"> 42% off </button></div> 
+          </div>
+      </div>
+        
+</body>
+</html>
