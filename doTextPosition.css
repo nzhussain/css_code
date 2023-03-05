@@ -1,8 +1,9 @@
 .box{
-    width: 80vw;
-    height: 80vh;
+    width:500px;
+    height: 500px;
     background-color: brown;
     box-shadow: 0 0 2px 4px white,0 0 1px 5px black;
+    border-radius: 9px;
 }
 .text1{
     text-align:left;
@@ -22,7 +23,7 @@
 .text4{
      /* transform: translateY(460px); */
      position: relative;
-     top:460px;
+     top:26.5em;
 }
 .text5{
     text-align: right;
