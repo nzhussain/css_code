@@ -1,0 +1,32 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    box-shadow: 0 0 0 2px;
+    margin:2px;
+    scroll-behavior: auto;
+    
+}
+#static{
+    transform:perspective(15px) translateX(5px);
+    /* here perspective = is show that how thing see of humans like 3d to 2d form 
+    so which transform show easily 3d to 2d form like rotate then those not use
+    perspective in it  */
+}
+.translate{
+    transform: perspective(20px) translateZ(-19px) rotate(60deg);
+}
+#scale{
+    margin-left: 20em;
+    transform:perspective(300px) scaleZ(4) rotateX(45deg) rotateY(60deg);
+}
+.rotate{
+    margin-left: 24em;
+    margin-top: 10em;
+    /* transform: perspective(30px) rotateZ(45deg); -> not need perspective in rotate bcs it already show 3d to 2d views */
+    transform: rotateZ(60deg);
+}
+#skew{
+    margin-left: 8em;
+    /* transform:perspective(30px) skewZ(45deg); -> it's skew() property not use in css on use x,y axis */
+}
