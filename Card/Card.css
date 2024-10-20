@@ -1,0 +1,76 @@
+#wrapper{
+    margin: 10px;
+    padding: 10px;
+}
+.Course1{
+    width: 360px;
+    height: 435px;
+    border: 2px solid rgb(223, 212, 212);
+    padding: 10px 10px 10px 10px ;
+    display: inline-block;
+    align-items: center;
+    margin: 5px;
+}
+.Course2{
+    width: 360px;
+    height: 435px;
+    border: 2px solid rgb(223, 212, 212);
+    padding: 10px 10px 10px 10px ;
+    display: inline-block;
+    align-items: center;
+    margin: 5px;
+}
+.Course3{
+    width: 360px;
+    height: 435px;
+    border: 2px solid rgb(223, 212, 212);
+    padding: 10px 10px 10px 10px ;
+    display: inline-block;
+    align-items: center;
+    margin: 5px;
+}
+div:hover{
+    border-color: rgb(0, 128, 58);
+}
+img{
+    border-radius: 13px;
+    width: 360px;
+
+}
+
+#caption{
+    font-size:1.5em;
+    font-weight: bold;
+    font-family: Rubik;
+}
+hr{
+    margin-right: 100px;
+    /* height: 2px; */
+    
+    border: 2px solid rgb(218, 206, 206);
+}
+#span1{
+    font-family: Rubik;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(96, 76, 229);
+    margin-right: 10px;
+}
+#span2{
+    font-family: Rubik;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(101, 96, 96);
+    margin-right: 18px;
+}
+#span3{
+    font-family: Rubik;
+    font-size:15px;
+    font-weight:bold;
+    background: rgb(49, 156, 49);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    border: white;
+    
+}
